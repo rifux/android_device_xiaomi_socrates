@@ -243,6 +243,10 @@ PRODUCT_PACKAGES += \
     SettingsOverlaySocrates \
     TelephonyOverlaySocrates
 
+# Device overlay
+DEVICE_PACKAGE_OVERLAYS += \
+    $(LOCAL_PATH)/overlay-voltage
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
