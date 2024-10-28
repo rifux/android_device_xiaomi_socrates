@@ -89,6 +89,7 @@ TARGET_KERNEL_CONFIG := \
     vendor/kalama_GKI.config \
     vendor/socrates_GKI.config
 KERNEL_LTO := none
+TARGET_KERNEL_CLANG_VERSION := r487747c
 
 BOARD_USES_QCOM_MERGE_DTBS_SCRIPT := true
 TARGET_NEEDS_DTBOIMAGE := true
